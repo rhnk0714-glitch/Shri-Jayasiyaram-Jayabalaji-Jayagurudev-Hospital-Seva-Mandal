@@ -1,19 +1,17 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const DonationSchema = new mongoose.Schema(
   {
-    razorpayOrderId: { type: String, required: true },
-    razorpayPaymentId: { type: String },
-    razorpaySignature: { type: String },
+    donorName: { type: String, required: true },
+    donorEmail: { type: String },
+    donorPhone: { type: Number, required:true },
+    donorAddress: {type:String, required:true},
+    donorPan: { type: String },
     amount: { type: Number, required: true },
-    currency: { type: String, default: 'INR' },
-    donorName: String,
-    donorEmail: String,
-    donorPhone: String,
-    status: { type: String, enum: ['created', 'paid', 'failed'], default: 'created' },
-    notes: String
+    notes: { type: String },
+    status: { type: String, enum: ['created', 'paid', 'failed'], default: 'created' }
   },
   { timestamps: true }
 );
 
-export default mongoose.model('Donation', DonationSchema);
+export default mongoose.model("Donation", DonationSchema);

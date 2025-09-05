@@ -14,7 +14,7 @@ import contactRoutes from './routes/contact.js';
 import newsRoutes from './routes/news.js';
 import mediaRoutes from './routes/media.js';
 import teamRoutes from './routes/team.js';
-import paymentRoutes from './routes/payments.js';
+import donationRoutes from './routes/donations.js';
 import visitorRoutes from './routes/visitors.js';
 
 
@@ -47,7 +47,7 @@ app.use('/api/contact', contactRoutes);
 app.use('/api/news', newsRoutes);
 app.use('/api/media', mediaRoutes);
 app.use('/api/team', teamRoutes);
-app.use('/api/payments', paymentRoutes);
+app.use('/api/donations', donationRoutes);
 app.use('/api/visitors', visitorRoutes);
 
 
@@ -66,5 +66,5 @@ if (process.env.NODE_ENV === 'production') {
   app.use('/uploads', express.static(path.join(__dirname, '..', 'uploads')));
 }
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000 ;
 app.listen(port, () => console.log(`🚀 API on http://localhost:${port}`));

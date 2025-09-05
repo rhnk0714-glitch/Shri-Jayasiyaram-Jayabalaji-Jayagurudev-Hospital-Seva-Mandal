@@ -13,8 +13,10 @@
     
   },
   "hero": {
-    "title": "Shri Manav Seva Sarvajanik Trust managed by Shri Jayasiyaram Jayabalaji Jayagurudev Hospital Seva Mandal ",
-    "subtitle": "Serving humanity since 1987 - Free daily tea, milk, snacks and meals, blood donation, transportation, medical assistance, medical equipment, etc. for the relatives of patients.",
+    "sbtitle": "Shri Manav Seva Sarvajanik Trust",
+    "title":"Shri Jayasiyaram Jayabalaji Jayagurudev Hospital Seva Mandal",
+    "subtitle1":"P. Shri Gurudev has said in a compassionate speech:-",
+    "subtitle2": "Providing food to the hunger, clothing to the unclothed, water to the thirsty, medicine to the sick, and all kinds of service to the needy is true “human service“ - “service to God.“",
     "cta_donate": "Donate",
     "cta_volunteer": "Volunteer"
   },
@@ -25,28 +27,47 @@
     "account1": "Shri Manav Seva Sarvajanik Trust, Rajkot Nagrik Sahakari Bank Ltd., Para Bazar Branch, A/C 010003100080532, IFSC RNSB0000001",
     "account2": "Jayagurudev Hospital Seva Mandal, Rajkot Nagrik Sahakari Bank Ltd., Para Bazar Branch, A/C 010003100078035, IFSC RNSB0000001",
     "online_heading": "Donate Online",
-    "online_info": "Make an instant donation using UPI, Card, Netbanking or Wallet. Secure payments powered by Razorpay.",
+    "online_info": "Make an instant donation using UPI.",
     "amount_label": "Donation Amount (₹)",
-    "donor_name": "Your Name (Optional)",
+    "donor_name": "Your Name ",
     "donor_email": "Email (Optional)",
-    "donor_phone": "Phone (Optional)",
+    "donor_phone": "Phone",
+    "donor_address":"Address",
+    "donor_pan": "PAN Number (Optional)",
     "donation_purpose": "Purpose (Optional)",
     "quick_amounts": "Quick Select:",
     "donate_button": "Donate Now",
-    "custom_amount": "Enter Custom Amount"
+    "custom_amount": "Enter Custom Amount",
+    "greet":"Thank You",
+    "amt":"Amount",
+    "request":" Please scan the QR code below or tap the UPI ID to copy and complete your donation."
   },
   "about": {
     "heading": "About Us",
     "body":[{
   "page_1": {
     "organization_info": {
-      "trust_name": "Shri Manav Seva Sarvajanik Trust Operated",
+      "trust_name": "Shri Manav Seva Sarvajanik Trust",
       "hospital_board": "Jaysiyaram Jaybalaji Jaygurudev Hospital Seva Mandal",
-      "address": "“Vrajbhoomi\" Raghuveerpara Street No. 6, Rajkot-360001",
-      "phone": "0281-2231967",
-      "pan": "AADTS9168C",
+      "address": "Kitchen-Office",
+      "KO":"Street No.6, Raghuveerpara, Rajkot-360001",
+      "phone":"Phone Number",
+      "phno": "0281-2231967",
+      "panno1": "80 G URN AADTS9168C Dt. 14.10.2021",
+      "panno2": "12A URN AADTS9168C Dt. 14.10.2021",
+      "pan": "Pan No.",
       "email": "jaysiyaramhospital@gmail.com",
-      "trust_reg": "E-5678"
+      "Mobile":"Mobile No.",
+      "mbnb":"93284 76989 / 93741 01113",
+      "panno": "AADTS9168C",
+      "trust":"Trust Reg. No.",
+      "trust_reg": "E-5678, Rajkot",
+      "csrno":"CSR00048973",
+      "CSR": "CSR Reg. No.",
+      "FSSAI": "FSSAI License No.",
+      "Fssaino":"20718030000447",
+      "darpan":"darpan ID",
+      "dpid": "GJ/2025/0576089"
     },
     "services_summary": "Our organization, Shri Manav Seva Sarvajanik Trust, Rajkot, operated by Shri Jaysiyaram Jaybalaji Jaygurudev Hospital Seva Mandal and its collaborating organization, Shri Nakalank Seva Charitable Trust, Rajkot, has been the only organization providing pure, sattvic and nutritious tea, milk, snacks and meals free of cost, 365 days a year, in the morning, afternoon and evening for the relatives taking care of the patients at the Government-run Pandit Dindayal Civil Hospital, Padmakunvarba Gundawadi Hospital and Rasul Khan Zanana Hospital in Rajkot since 1987. It is providing all kinds of necessary medical assistance to the patients arriving for treatment from all over Saurashtra, such as medicines, injections, laboratory, X-ray, CT scan, MRI, blood donation as well as organizing blood donation camps for the blood bank of the Civil Hospital. We provide free vehicle arrangements to bring and drop off patients and to transport the body to the appropriate place. Thalassemia patients who come to the Civil Hospital for blood transfusions are also given bus fare to go home. We are also running a library for the Civil staff and celebrating Nurses' Day and Doctors' Day. Not only that, during natural calamities like earthquakes, swine flu or Corona, the organization has been working day and night for human service with the government and hospital authorities as per the requirement. The organization provides necessary equipment like beds, wheelchairs, latrine chairs, walkers, water beds, air beds, diapers, oxygen concentrator machines, ventilators etc. to the patients free of cost and without any deposit. The government and the hospital authorities are offering and continue to offer invaluable contributions to this human service Yagya (noble work) of the organization. The hospital authorities, out of humanity, have given space for a kitchen in Gundawadi and Zanana hospitals and built a temporary shed and given written permission to build a shed on the space in the Civil Hospital, so the kitchen has been prepared at that place by spending on it themselves. The government and the hospital authorities have never expressed any institutional sentiment on the space given to us. But we just want to say that the organization has not done any kind of illegal encroachment on the place where this human service Yagya is ignited. Therefore, before making any inappropriate public comments or accusations about our organization, please try to know the truth. So far, more than one and three quarter crore (1.75 crore) Daridranarayans have taken advantage of the Prabhu Prasad from the organization. This year, in addition to that, the organization has planned that more than five thousand new Daridranarayans can take advantage of the Prabhu Prasad. In this organization, volunteers from the smallest person in the society to businessmen, factory owners, officers, employees, housewives and daughters come regularly every day to serve. Some volunteers have been associated with the organization for twenty-five years or more. Many volunteers have been associated with the organization for two-three generations. Currently, 200 to 250 volunteers are associated with the organization."
   },
@@ -84,13 +105,13 @@
   "trustee": [
     {
       "photo": "/src/imgs/Member1.png",
-      "name": "Kirtibhai Maniyar",
+      "name": "Kirtibhai Maniar",
       "pos":"President",
       "number": "Mo. 93741 01113"
     },
     {
       "photo": "/src/imgs/Member2.png",
-      "name": "Pradyuman Singh Jadav",
+      "name": "Pradhyumansinh Jadav",
       "pos":"Vice President",
       "number": "Mo. 98985 55236"
     },
@@ -134,6 +155,8 @@
     "occupation": "Occupation",
     "qualification": "Qualification",
     "address": "Address",
-    "submit": "Submit"
+    "submit": "Submit",
+    "success":"Volunteer Registered Successfully",
+    "error":"Volunteer's Information is not submitted due to some Problem. Please Try Again Later!"
 }
 }

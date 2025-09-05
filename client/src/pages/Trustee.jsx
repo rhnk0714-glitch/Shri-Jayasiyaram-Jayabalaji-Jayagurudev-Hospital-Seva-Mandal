@@ -1,8 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Section from '../components/Section.jsx';
-import trusteesData from "../locales/en/translation.json";
-import trusteePhoto from "../imgs/profile.jpg";
 
 export default function Trustee(){
 const { t } = useTranslation();
@@ -10,7 +8,7 @@ const trustees = t("trustee", { returnObjects: true });
 
 return (
     <div className="tt">
-    <Section>
+    <section>
         <div className="trustees-grid">
     {trustees.map((member, index) => (
         <div className="trustee-card" key={index}>
@@ -22,7 +20,7 @@ return (
         </div>
     ))}
     </div>
-    </Section>
+    </section>
     </div>
 );
 }

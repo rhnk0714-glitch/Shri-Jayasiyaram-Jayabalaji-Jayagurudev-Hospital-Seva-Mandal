@@ -27,41 +27,43 @@ import news19 from "../imgs/news (18).jpg";
 import news20 from "../imgs/news (19).jpg";
 import news21 from "../imgs/news (20).jpg";
 import news22 from "../imgs/news (21).jpg";
-import news23 from "../imgs/news (22).jpg";
 import news24 from "../imgs/news (23).jpg";
-import news25 from "../imgs/ab.jpg";
 import news26 from "../imgs/av.jpg";
+import news23 from "../imgs/adv.jpg";
+import news25 from "../imgs/adv2.jpg";
+import news27 from "../imgs/adv3.jpg"
 
 export default function Media() {
   const { t } = useTranslation();
   // image list: extend this with your imports
   const images = [
     { id: 1, src: news1, alt: t("media.alt.news1", "News image 1"), caption: t("media.caption.news1", "Jaysiyaram - event photo") },
-    { id:2, src: news2  , alt: "...", caption:t("media.caption.news2","XYZ- event photo") },
-    { id:3, src: news3  , alt: "...", caption:t("media.caption.news3","XYZ- event photo") },
-    { id:4, src: news4, alt: "...", caption:t("media.caption.news4","XYZ- event photo") },
-    { id:5, src: news5, alt: "...", caption:t("media.caption.news5","XYZ- event photo") },
-    { id:6, src: news6, alt: "...", caption:t("media.caption.news6","XYZ- event photo") },
-    { id:7, src: news7, alt: "...", caption:t("media.caption.news7","XYZ- event photo") },
-    { id:8, src: news8, alt: "...", caption:t("media.caption.news8","XYZ- event photo") },
-    { id:9, src: news9, alt: "...", caption:t("media.caption.news9","XYZ- event photo") },
-    { id:10, src: news10, alt: "...", caption:t("media.caption.news10","XYZ- event photo") },
-    { id:11, src: news11, alt: "...", caption:t("media.caption.news11","XYZ- event photo") },
-    { id:12, src: news12, alt: "...", caption:t("media.caption.news12","XYZ- event photo") },
-    { id:13, src: news13, alt: "...", caption:t("media.caption.news13","XYZ- event photo") },
-    { id:14, src: news14, alt: "...", caption:t("media.caption.news14","XYZ- event photo") },
-    { id:15, src: news15, alt: "...", caption:t("media.caption.news15","XYZ- event photo") },
-    { id:16, src: news16, alt: "...", caption:t("media.caption.news16","XYZ- event photo") },
-    { id:17, src: news17, alt: "...", caption:t("media.caption.news17","XYZ- event photo") },
-    { id:18, src: news18, alt: "...", caption:t("media.caption.news18","XYZ- event photo") },
-    { id:19, src: news19, alt: "...", caption:t("media.caption.news19","XYZ- event photo") },
-    { id:20, src: news20, alt: "...", caption:t("media.caption.news20","XYZ- event photo") },
-    { id:21, src: news21, alt: "...", caption:t("media.caption.news21","XYZ- event photo") },
-    { id:22, src: news22, alt: "...", caption:t("media.caption.news22","XYZ- event photo") },
-    { id:23, src: news23, alt: "...", caption:t("media.caption.news23","XYZ- event photo") },
-    { id:24, src: news24, alt: "...", caption:t("media.caption.news24","XYZ- event photo") },
-    { id:25, src: news25, alt: "...", caption:t("media.caption.news25","XYZ- event photo") },
-    { id:26, src: news26, alt: "...", caption:t("media.caption.news26","XYZ- event photo") }
+    { id:2, src: news2, alt: "...", caption:t("media.caption.news2","Advertisement ")},
+    { id:3, src: news3, alt: "...", caption:t("media.caption.news3","Advertisement ")},
+    { id:4, src: news4, alt: "...", caption:t("media.caption.news4","Advertisement ")},
+    { id:5, src: news5, alt: "...", caption:t("media.caption.news5","Janmashtami ")},
+    { id:6, src: news6, alt: "...", caption:t("media.caption.news6","Advertisement ")},
+    { id:7, src: news7, alt: "...", caption:t("media.caption.news7","Advertisement ")},
+    { id:8, src: news8, alt: "...", caption:t("media.caption.news8","Independance Day")},
+    { id:9, src: news9, alt: "...", caption:t("media.caption.news9","Advertisement")},
+    { id:10, src: news10, alt: "...", caption:t("media.caption.news10","Advertisement")},
+    { id:11, src: news11, alt: "...", caption:t("media.caption.news11","Advertisement")},
+    { id:12, src: news12, alt: "...", caption:t("media.caption.news12","Advertisement")},
+    { id:13, src: news13, alt: "...", caption:t("media.caption.news13","Advertisement")},
+    { id:14, src: news14, alt: "...", caption:t("media.caption.news14","Advertisement")},
+    { id:15, src: news15, alt: "...", caption:t("media.caption.news15","Advertisement")},
+    { id:16, src: news16, alt: "...", caption:t("media.caption.news16","Advertisement")},
+    { id:17, src: news17, alt: "...", caption:t("media.caption.news17","Advertisement")},
+    { id:18, src: news18, alt: "...", caption:t("media.caption.news18","Advertisement")},
+    { id:19, src: news19, alt: "...", caption:t("media.caption.news19","Advertisement")},
+    { id:20, src: news20, alt: "...", caption:t("media.caption.news20","Advertisement")},
+    { id:21, src: news21, alt: "...", caption:t("media.caption.news21","Advertisement")},
+    { id:22, src: news22, alt: "...", caption:t("media.caption.news22","Advertisement")},
+    { id:23, src: news24, alt: "...", caption:t("media.caption.news24","Advertisement")},
+    { id:24, src: news26, alt: "...", caption:t("media.caption.news26","Advertisement")},
+    { id:25, src: news23, alt: "...", caption:t("media.caption.news23","Advertisement")},
+    { id:26, src: news25, alt: "...", caption:t("media.caption.news25","Advertisement")},
+    { id:27, src: news27, alt: "...", caption:t("media.caption.news27","Advertisement")},
 
   ];
 

@@ -25,7 +25,7 @@ const VolunteerForm = () => {
     setLoading(true);
 
     try {
-      const res = await fetch("http://localhost:5000/api/volunteers", {
+      const res = await fetch("http://localhost:5555/api/volunteers", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
@@ -104,7 +104,7 @@ const VolunteerForm = () => {
         />
 
         <button type="submit"  className="btn" disabled={loading}>
-          {loading ? t("volunteerForm.submitting") : t("volunteerForm.submit")}
+          {loading ? t("volunteerForm.submit") : t("volunteerForm.submit")}
         </button>
         </div>
       </form>

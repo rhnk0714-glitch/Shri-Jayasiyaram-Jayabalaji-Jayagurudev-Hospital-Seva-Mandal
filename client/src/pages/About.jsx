@@ -33,26 +33,37 @@ export default function About() {
               <h3 className="card-heading">Organization Info</h3>
 
               <p className="meta-line">
-                <strong>Address:</strong>
+                <strong>{t('about.body.0.page_1.organization_info.address')}:</strong>
                 <br />
-                {page1.organization_info?.address}
-              </p>
-
-              <p className="meta-line">
-                <strong>Phone:</strong> {page1.organization_info?.phone}
+                {page1.organization_info?.KO}
               </p>
               <p className="meta-line">
+                <strong>{t('about.body.0.page_1.organization_info.phone')}:</strong> {page1.organization_info?.phno}
+              </p>
+              <p className="meta-line">
+                <strong>{t('about.body.0.page_1.organization_info.Mobile')}:</strong> {page1.organization_info?.mbnb}
+              </p>
+              {/* <p className="meta-line">
                 <strong>Email:</strong> {page1.organization_info?.email}
+              </p> */}
+              <p className="meta-line">
+                <strong>{t('about.body.0.page_1.organization_info.pan')}:</strong> <br/>{page1.organization_info?.panno}
+                <br/>{page1.organization_info?.panno1}<br/>{page1.organization_info?.panno2}
               </p>
               <p className="meta-line">
-                <strong>PAN:</strong> {page1.organization_info?.pan}
+                <strong>{t('about.body.0.page_1.organization_info.trust')}:</strong> {page1.organization_info?.trust_reg}
               </p>
               <p className="meta-line">
-                <strong>Trust Reg.:</strong> {page1.organization_info?.trust_reg}
+                <strong>{t('about.body.0.page_1.organization_info.CSR')}:</strong> {page1.organization_info?.csrno}
+              </p>
+              <p className="meta-line">
+                <strong>{t('about.body.0.page_1.organization_info.FSSAI')}:</strong> {page1.organization_info?.Fssaino}
+              </p>
+              <p className="meta-line">
+                <strong>{t('about.body.0.page_1.organization_info.darpan')}:</strong> {page1.organization_info?.dpid}
               </p>
             </div>
           </aside>
-
           {/* Right content (long paragraphs) */}
           <article className="about-content">
             <section className="about-section">
@@ -61,7 +72,6 @@ export default function About() {
                 {page1.services_summary}
               </p>
             </section>
-
             <section className="about-section">
               <h4 className="section-head">Financials & Operations</h4>
               <p className="body-text whitespace-pre-line">

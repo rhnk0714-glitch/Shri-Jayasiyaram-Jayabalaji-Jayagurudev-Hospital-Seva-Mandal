@@ -9,10 +9,6 @@
   --card-dark: rgba(65, 57, 92, 0.643);
   --nav-height: 62px;
 
-  /* slideshow timing */
-  --body-cycle-duration: 12s;
-  --each-duration: 0s;
-  --fade-time: 0.1s;
 }
 
 /* Base */
@@ -23,7 +19,7 @@ body {
   min-height: 100vh;
   font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans Gujarati", sans-serif;
   color: #fff;
-  background: linear-gradient(180deg, var(--bg-dark), var(--bg-dark2));
+  /* background: linear-gradient(180deg, var(--bg-dark), var(--bg-dark2)); */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-y: auto;
@@ -31,7 +27,7 @@ body {
   background-size: 100% 100%;
   background-repeat: no-repeat;
   animation: bodyBgCycle var(--body-cycle-duration) linear infinite;
-}
+} 
 
 body.light {
   color: var(--text-dark);
@@ -114,7 +110,7 @@ body.light {
   background: #e64a19;
 }
 
-body::after{
+/* body::after{
   content: "";
   position: fixed;
   inset: 0;
@@ -124,7 +120,7 @@ body::after{
   opacity: 0;
   transition: opacity var(--fade-time) ease;
   animation: bodyBgFade var(--body-cycle-duration) linear infinite;
-}
+} */
 
 main, nav, header, section, footer {
   position: relative;
@@ -167,7 +163,11 @@ body.light nav{
 
 .brand .title { font-weight:700; font-size:1.5rem; white-space:nowrap; }
 
-nav .links { display:flex; gap:12px; align-items:center; margin-left:10px; }
+nav .links { 
+  display:flex; 
+  gap:12px; 
+  align-items:center; 
+}
 nav a {
   color: inherit; text-decoration:none;
   padding:8px 12px; border-radius:8px;
@@ -210,11 +210,27 @@ nav a.active, nav a:hover{
 main { position:relative; z-index:1; padding-top: calc(var(--nav-height) + 10px); min-height:100vh; }
 section { max-width:1200px; margin: 28px auto; padding: 28px 20px; color:inherit;  }
 
-.hero { display:flex; align-items:center; justify-content:space-between; gap:20px; padding-top: 18px; }
-.hero .left { max-width:720px; }
+.hero { 
+  display:flex; 
+  align-items:center; 
+  justify-content:space-between; 
+  gap:20px; 
+  padding-top: 18px; 
+}
+.hero .left { 
+  max-width:720px;
+}
 
-h1 { font-size: clamp(20px, 3.4vw, 34px); margin-bottom:20px; text-shadow: 0 6px 30px rgba(0,0,0,0.4); }
-p.lead { font-size: clamp(14px, 1.9vw, 18px); color: rgba(255,255,255,0.92); line-height:1.5; padding-bottom: 5em; }
+h1 { 
+  font-size: clamp(20px, 3.4vw, 34px); 
+  margin-bottom:20px; 
+  text-shadow: 0 6px 30px rgba(0,0,0,0.4); 
+}
+p.lead {
+  font-size: clamp(14px, 1.9vw, 18px);
+  color: rgba(255,255,255,0.92); 
+  line-height:1.5; 
+  padding-bottom: 5em; }
 
 .card {
   background: var(--card-dark);
@@ -227,28 +243,32 @@ p.lead { font-size: clamp(14px, 1.9vw, 18px); color: rgba(255,255,255,0.92); lin
 .grid { display:grid;  gap:20px; }
 .grid-2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
 .grid-3 { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
-.grid-4 {
+.grid-4 { 
   grid-template-columns: 1fr 1fr;   /* 2 columns */
   grid-template-rows: repeat(5, 150px);
-  gap: 10px;  
+  gap: 10px;
 }
 
 .input, textarea { 
-  width: 100%; 
-  padding: 12px 16px; 
-  border-radius: 8px; 
-  border: 1px solid rgba(255,255,255,0.1); 
-  background: rgba(255,255,255,0.06); 
-  color:#fff; 
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(255,255,255,0.06);
+  color:#fff;
   font-family: inherit;
 }
-
+.input::placeholder{
+  color: var(--bg-light);
+}
 .trustees-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr); /* 2 columns */
   /*grid-template-rows: repeat(5, auto);   5 rows */
   gap: 20px; /* spacing between cards */
   padding: 20px;
+  justify-items: center; 
+  align-items: start;
   
 }
 
@@ -289,7 +309,11 @@ p.lead { font-size: clamp(14px, 1.9vw, 18px); color: rgba(255,255,255,0.92); lin
 
 .tt section{
   max-width: 1200px;
-  
+  background: var(--card-dark);
+  border-radius:12px;
+  padding:20px;
+  box-shadow: 0 8px 16px rgba(255, 255, 20, 0.5),0 8px  26px 6px rgba(255, 118, 20, 0.5);
+  overflow: auto;
 }
 .input:focus, textarea:focus { outline: none; border-color: var(--primary); }
 
@@ -304,6 +328,7 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
 
 .droplet {
   position:absolute;
+  overflow: hidden;
   left:0; top:-6vh;
   pointer-events:none;
   font-weight:900;
@@ -330,22 +355,41 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
     display: flex;
     flex-direction: column;
     gap: 8px;
-    position: absolute;
-    top: var(--nav-height);
+    position:absolute;
+    top: 100%;
     left: 0;
     right: 0;
     background: var(--glass);
-    padding: 10px 12px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.35s ease;
+    transition: max-height 0.35s ease; 
   }
   
   .links.show{
-    max-height: 300px; /* expand smoothly */
+    max-height: 500px; /* expand smoothly */
   }
   .menu-toggle { display:block; }
   .brand .title{ display:none }
+  .trustees-grid{
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .trustee-card{
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 20px;
+  /* ✅ make it responsive */
+  width: 100%;
+  max-width: 100%;   /* so it never overflows */
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .card .trustees-grid{
+    padding: 0;
+  }
 }
 
 /* Bubbles */
@@ -387,16 +431,6 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   8% { opacity: 0.6; }
   45% { opacity: 0.85; }
   100% { transform: translateY(-140vh) scale(1.2) rotate(240deg); opacity: 0; }
-}
-
-/* BACKGROUND IMAGE CYCLE */
-@keyframes bodyBgCycle {
-  0%, 16.666%   { background-image: url('./imgs/ram1.jpg'); }
-  16.667%, 33.333% { background-image: url('./imgs/ram2.jpg'); }
-  33.334%, 50%  { background-image: url('./imgs/ram3.jpg'); }
-  50.001%, 66.666% { background-image: url('./imgs/ram4.jpg'); }
-  66.667%, 83.333% { background-image: url('./imgs/ram5.jpg'); }
-  83.334%, 100% { background-image: url('./imgs/ram6.jpg'); }
 }
 
 @keyframes bodyBgFade {

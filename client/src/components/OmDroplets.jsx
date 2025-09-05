@@ -11,7 +11,7 @@ export default function OmDroplets(){
       const d = document.createElement('div');
       d.className = 'droplet';
       d.textContent = 'ૐ';
-      const left = (typeof xPct === 'number') ? xPct : Math.random() * 100;
+      const left = (typeof xPct === 'number') ? xPct : Math.random() * 97;
       d.style.left = left + '%';
       const size = (Math.random() * 1.2 + 0.8).toFixed(2);
       d.style.fontSize = size + 'rem';
