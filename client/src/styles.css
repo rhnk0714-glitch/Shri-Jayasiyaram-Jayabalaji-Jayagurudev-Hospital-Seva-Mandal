@@ -50,15 +50,6 @@ body.light {
   
 }
 
-/* .volunteer {
-  max-width: 600px;
-  margin: auto;
-  padding: 2rem;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-} */
-
 .volunteer-form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
@@ -109,18 +100,6 @@ body.light {
 .music-toggle-btn:hover {
   background: #e64a19;
 }
-
-/* body::after{
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background: linear-gradient(180deg, rgba(7,17,26,0.35), rgba(11,27,42,0.35));
-  opacity: 0;
-  transition: opacity var(--fade-time) ease;
-  animation: bodyBgFade var(--body-cycle-duration) linear infinite;
-} */
 
 main, nav, header, section, footer {
   position: relative;
@@ -317,7 +296,7 @@ p.lead {
 }
 .input:focus, textarea:focus { outline: none; border-color: var(--primary); }
 
-footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); border-top: 1px solid rgba(255,255,255,0.02); }
+footer{ text-align:center; padding:28px 16px; color: rgba(0, 0, 0, 0.7);  font-weight: 900; border-top: 1px solid rgba(255,255,255,0.02); }
 
 .meal-list li{
   line-height: 1.8;
@@ -468,7 +447,6 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
 #about .about-title {
   font-size: clamp(1.45rem, 3.6vw, 2.4rem);
   margin: 0;
-  line-height: 1.05;
   font-weight: 800;
   /* gradient text with fallback shadow */
   background: linear-gradient(90deg, var(--primary-2), var(--primary));
@@ -594,6 +572,14 @@ footer{ text-align:center; padding:28px 16px; color: rgba(255,255,255,0.7); bord
   }
   .bubble { display:block; }
   body { background-position: top center; background-size: cover; }
+}
+
+.srv{
+  /* background: rgba(255, 255, 255, 0.1);; */
+  border-radius:12px;
+  padding:20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: auto;
 }
 /* ---------- Media Master Styles ---------- */
 #gallery .media-master { padding: 6px 6px 26px; }

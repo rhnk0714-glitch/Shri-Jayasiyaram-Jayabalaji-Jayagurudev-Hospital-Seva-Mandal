@@ -6,13 +6,15 @@ export default function Services(){
   const { t } = useTranslation();
   return (
     <Section id="services" title={t('services.heading')}>
-      <div className="card">
+      
+      <div className="srv">
         <h3 style={{marginTop:0}}>{t('services.subheading_meals')}</h3>
         <ul className="meal-list">
         {t('services.body_meals', { returnObjects: true }).map((text, index) => (
         <li key={index}>{text}</li>  ))}
         </ul>
-      </div>
+        </div>
+      
     </Section>
   );
 }

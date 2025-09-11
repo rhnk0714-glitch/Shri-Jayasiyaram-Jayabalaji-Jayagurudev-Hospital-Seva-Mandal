@@ -6,7 +6,6 @@ import morgan from 'morgan';
 import rateLimit from 'express-rate-limit';
 import path from 'path';
 import { fileURLToPath } from 'url';
-
 import { connectDB } from './config/db.js';
 import authRoutes from './routes/auth.js';
 import volunteerRoutes from './routes/volunteers.js';

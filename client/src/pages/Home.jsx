@@ -11,13 +11,6 @@ export default function Home() {
   
   return (
     <>
-      {/* <div className="bubbles" aria-hidden="true">
-        {Array.from({ length: 10 }).map((_, i) => (
-          <span key={i} className="bubble" />
-        ))}
-      </div>
-
-      <div className="slideshow-overlay" aria-hidden="true" /> */}
 
       <Section id="hero" className="content-above-bg">
         <div className="hero">
@@ -29,14 +22,10 @@ export default function Home() {
             <p className="lead">{t('hero.subtitle2')}</p>
             <div style={{ marginTop: 16, display: 'flex', gap: 12, flexWrap: 'wrap' }}>
               <Link to="/donate" className="control-btn">{t('hero.cta_donate')}</Link>
-              <Link to="/join" className="control-btn ">{t('hero.cta_volunteer')}</Link>
+              {/* <Link to="/join" className="control-btn ">{t('hero.cta_volunteer')}</Link> */}
             </div>
           </div>
         </div>
-      </Section>
-
-      <Section>
-        <VisitorCounter />
       </Section>
     </>
   );

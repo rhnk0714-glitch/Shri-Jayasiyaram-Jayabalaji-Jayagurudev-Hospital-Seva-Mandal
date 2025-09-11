@@ -18,10 +18,10 @@ export default function Donate(){
         {/* Bank Details Section */}
         <h3 style={{marginTop:32, fontSize:'1.4rem'}}>{t('donate.bank')}</h3>
         <div className="grid">
-          <div className="card">
+          <div className="srv">
             <p>{t('donate.account1')}</p>
           </div>
-          <div className="card">
+          <div className="srv">
             <p>{t('donate.account2')}</p>
           </div>
         </div>
