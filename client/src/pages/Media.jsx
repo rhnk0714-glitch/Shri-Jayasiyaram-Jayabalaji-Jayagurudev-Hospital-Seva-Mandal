@@ -27,11 +27,19 @@ import news19 from "../imgs/news (18).jpg";
 import news20 from "../imgs/news (19).jpg";
 import news21 from "../imgs/news (20).jpg";
 import news22 from "../imgs/news (21).jpg";
+import news23 from "../imgs/news (22).jpg";
 import news24 from "../imgs/news (23).jpg";
-import news26 from "../imgs/av.jpg";
-import news23 from "../imgs/adv.jpg";
-import news25 from "../imgs/adv2.jpg";
-import news27 from "../imgs/adv3.jpg"
+import news25 from "../imgs/news (24).jpg";
+import news26 from "../imgs/news (25).jpg";
+import news27 from "../imgs/news (26).jpg";
+import news28 from "../imgs/news (27).jpg";
+import news29 from "../imgs/news (28).jpg";
+import news30 from "../imgs/news (29).jpg";
+import news31 from "../imgs/news (30).jpg";
+import av from "../imgs/av.jpg";
+import adv from "../imgs/adv.jpg";
+import adv2 from "../imgs/adv2.jpg";
+import adv3 from "../imgs/adv3.jpg";
 
 export default function Media() {
   const { t } = useTranslation();
@@ -59,11 +67,19 @@ export default function Media() {
     { id:20, src: news20, alt: "...", caption:t("media.caption.news20","Advertisement")},
     { id:21, src: news21, alt: "...", caption:t("media.caption.news21","Advertisement")},
     { id:22, src: news22, alt: "...", caption:t("media.caption.news22","Advertisement")},
-    { id:23, src: news24, alt: "...", caption:t("media.caption.news24","Advertisement")},
-    { id:24, src: news26, alt: "...", caption:t("media.caption.news26","Advertisement")},
-    { id:25, src: news23, alt: "...", caption:t("media.caption.news23","Advertisement")},
-    { id:26, src: news25, alt: "...", caption:t("media.caption.news25","Advertisement")},
+    { id:23, src: news23, alt: "...", caption:t("media.caption.news23","Advertisement")},
+    { id:24, src: news24, alt: "...", caption:t("media.caption.news24","Advertisement")},
+    { id:25, src: news25, alt: "...", caption:t("media.caption.news25","Advertisement")},
+    { id:26, src: news26, alt: "...", caption:t("media.caption.news26","Advertisement")},  
     { id:27, src: news27, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:28, src: news28, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:29, src: news29, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:30, src: news30, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:31, src: news31, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:32, src: av, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:33, src: adv, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:34, src: adv2, alt: "...", caption:t("media.caption.news27","Advertisement")},
+    { id:35, src: adv3, alt: "...", caption:t("media.caption.news27","Advertisement")}
 
   ];
 
