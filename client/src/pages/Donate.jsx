@@ -14,8 +14,6 @@ export default function Donate(){
         <div style={{ marginTop: '32px' }}>
           <PaymentComponent />
         </div>
-
-        {/* Bank Details Section */}
         <h3 style={{marginTop:32, fontSize:'1.4rem'}}>{t('donate.bank')}</h3>
         <div className="grid">
           <div className="srv">
