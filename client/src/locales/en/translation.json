@@ -104,45 +104,45 @@
   },
   "trustee": [
     {
-      "photo": "/src/imgs/Member1.png",
+      "photo": "/src/assets/Member1.png",
       "name": "Kirtibhai Maniar",
       "pos":"President",
       "number": "Mo. 93741 01113"
     },
     {
-      "photo": "/src/imgs/Member2.png",
+      "photo": "/src/assets/Member2.png",
       "name": "Pradhyumansinh Jadav",
       "pos":"Vice President",
       "number": "Mo. 98985 55236"
     },
     {
-      "photo": "/src/imgs/Member3.png",
+      "photo": "/src/assets/Member3.png",
       "name": "Rajeshbhai Jobanputra",
       "pos":"Minister",
       "number": "Mo. 94269 60381"
     },
     {
-      "photo": "/src/imgs/Member4.png",
+      "photo": "/src/assets/Member4.png",
       "name": "Himanshubhai Mankad",
       "number": "Mo. 94262 25103"
     },
     {
-      "photo": "/src/imgs/Member7.png" ,
+      "photo": "/src/assets/Member7.png" ,
       "name": "Rambhai Jamang",
       "number": "Mo. 98242 88852"
     },
       {
-      "photo": "/src/imgs/Member8.png",
+      "photo": "/src/assets/Member8.png",
       "name": "Mavjibhai Kamani",
       "number": "Mo. 94279 13931"
     },
     {
-      "photo": "/src/imgs/Member5.png",
+      "photo": "/src/assets/Member5.png",
       "name": "Prakashbhai Bhuva",
       "number": "Mo. 97128 02853"
     },
     {
-      "photo": "/src/imgs/Member6.png",
+      "photo": "/src/assets/Member6.png",
       "name": "Maheshbhai Parmar",
       "number": "Mo. 98243 95789"
     }

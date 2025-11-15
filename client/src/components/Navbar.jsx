@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import LanguageToggle from './LanguageToggle.jsx';
-import logo from '../imgs/trust_logo.png'
+import logo from '../assets/trust_logo.png'
 
 export default function Navbar(){
   const { t } = useTranslation();

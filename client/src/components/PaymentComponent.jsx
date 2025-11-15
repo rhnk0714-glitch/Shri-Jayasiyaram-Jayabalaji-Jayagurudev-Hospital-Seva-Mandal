@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
-import upiQR from "../imgs/qr.jpg"; 
+import upiQR from "../assets/qr.jpg"; 
 
 export default function PaymentComponent() {
   const { t } = useTranslation();

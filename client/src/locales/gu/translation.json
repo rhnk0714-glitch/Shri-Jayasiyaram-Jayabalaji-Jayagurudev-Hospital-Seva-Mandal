@@ -100,14 +100,14 @@
     "rights": "© 2025 શ્રી માનવ સેવા સાર્વજનિક ટ્રસ્ટ. સર્વ હક સુરક્ષિત."
   },
   "trustee": [
-    { "photo": "/src/imgs/member1.png", "name": "કીર્તિભાઈ મણિયાર ","pos":"પ્રમુખ", "number": "મો. 93741 01113" },
-    { "photo": "/src/imgs/member2.png", "name": "પ્રધ્યુમનસિંહ જાધવ ","pos":"ઉપપ્રમુખ", "number": "મો. 98985 55236 " },
-    { "photo": "/src/imgs/member3.png", "name": "રાજેશભાઈ જોબનપુત્રા ","pos":"મંત્રી", "number": "મો. 94269 60381 " },
-    { "photo": "/src/imgs/member4.png", "name": "હિમાંશુભાઈ માંકડ", "number": "મો. 94262 25103" },
-    { "photo": "/src/imgs/member7.png", "name": "રામભાઇ જામંગ", "number": "મો. 98242 88852" },
-    { "photo": "/src/imgs/member8.png", "name": "માવજીભાઈ કમાણી", "number": "મો. 94279 13931 " },
-    { "photo": "/src/imgs/member5.png", "name": "પ્રકાશભાઈ ભુવા", "number": " મો. 97128 02853" },
-    { "photo": "/src/imgs/member6.png", "name": "મહેશભાઇ પરમાર", "number": "મો. 98243 95789" }
+    { "photo": "/src/assets/member1.png", "name": "કીર્તિભાઈ મણિયાર ","pos":"પ્રમુખ", "number": "મો. 93741 01113" },
+    { "photo": "/src/assets/member2.png", "name": "પ્રધ્યુમનસિંહ જાધવ ","pos":"ઉપપ્રમુખ", "number": "મો. 98985 55236 " },
+    { "photo": "/src/assets/member3.png", "name": "રાજેશભાઈ જોબનપુત્રા ","pos":"મંત્રી", "number": "મો. 94269 60381 " },
+    { "photo": "/src/assets/member4.png", "name": "હિમાંશુભાઈ માંકડ", "number": "મો. 94262 25103" },
+    { "photo": "/src/assets/member7.png", "name": "રામભાઇ જામંગ", "number": "મો. 98242 88852" },
+    { "photo": "/src/assets/member8.png", "name": "માવજીભાઈ કમાણી", "number": "મો. 94279 13931 " },
+    { "photo": "/src/assets/member5.png", "name": "પ્રકાશભાઈ ભુવા", "number": " મો. 97128 02853" },
+    { "photo": "/src/assets/member6.png", "name": "મહેશભાઇ પરમાર", "number": "મો. 98243 95789" }
   ],
   "volunteerForm": {
     "title": "Volunteer Registration Form",

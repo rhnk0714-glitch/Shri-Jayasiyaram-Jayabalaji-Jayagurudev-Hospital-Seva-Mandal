@@ -2,16 +2,12 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router-dom';
 import Section from '../components/Section.jsx';
-import charity from '../imgs/Bapu (1).jpg';
-import VisitorCounter from '../components/VisitorCounter.jsx';
-
+import charity from '../assets/Bapu (1).jpg';
 
 export default function Home() {
   const { t } = useTranslation();
-  
   return (
     <>
-
       <Section id="hero" className="content-above-bg">
         <div className="hero">
           <img width="30%" height="500px" src={charity} alt="" />
